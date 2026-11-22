@@ -1,0 +1,14 @@
+{
+  "name": "orbithop",
+  "version": "1.0.0",
+  "description": "Orbit Hop — a one-tap space arcade browser game (static, no build step).",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8841 -d docs",
+    "test": "node --test tests/*.test.js",
+    "e2e": "node tests/e2e.mjs",
+    "sim": "node tools/simulate.mjs 60 race"
+  }
+}
